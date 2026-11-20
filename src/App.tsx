@@ -2924,6 +2924,48 @@ function HelpSupportView() {
             </div>
           </div>
 
+
+          {/* Video de creación y desarrollo del proyecto */}
+          <div className="bg-[#FFFCFC] border border-[#E0D9E7] rounded-2xl p-5 lg:p-7 space-y-4">
+
+            <div>
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-xl">💻</span>
+                <span className="text-xs font-bold tracking-wide text-[#80658B]">
+                  PROYECTO ACADÉMICO
+                </span>
+              </div>
+
+              <h2
+                className="text-lg font-bold text-[#51445C]"
+                style={DISPLAY}
+              >
+                Creación y desarrollo del proyecto
+              </h2>
+
+              <p className="text-sm text-[#817687] mt-1 leading-relaxed">
+                Conoce cómo se desarrolló Mi Gestor de Tareas, las herramientas
+                y tecnologías utilizadas, la organización del código fuente
+                y el proceso de publicación de la aplicación en Internet.
+              </p>
+            </div>
+
+            <div className="w-full aspect-video overflow-hidden rounded-xl bg-[#F0EDF3]">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/egU1I4p-P4k"
+                title="Creación y desarrollo de Mi Gestor de Tareas"
+                className="w-full h-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
+            </div>
+
+            <p className="text-xs text-[#A69BA9]">
+              Video de demostración del proceso de creación y publicación del proyecto.
+            </p>
+          </div>
+
           {/* Video educativo */}
           <div className="bg-[#FFFCFC] border border-[#E0D9E7] rounded-2xl p-5 lg:p-7 space-y-4">
             <div>
